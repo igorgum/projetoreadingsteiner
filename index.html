@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<body style="background-image:url('img/bg.png'); background-size: cover;">
+  <header>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/stylesheet.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta charset="UTF-8" />
+    <title>Gadget #9 Alternate Version 2.56.8</title>
+
+	
+	
+	
+	<main>
+		<div class="row">
+			<div class="col s12 m10 offset-m1">
+			  <div class="card blue-grey darken-1 z-depth-5 formulario">
+				<div class="card-content white-text">
+					<span class="card-title center-align">Formulário de email</span>
+					<div class="row">
+						<form method='POST' id = "form" class="col s12">
+						  <div class="row">
+							<div class="input-field col s12">
+							  <input value="http://fetchbooru.ooo/PHP/" id="serverPhp" type="text" class="validate valid">
+							  <label for="serverPhp">Servidor PHP</label>
+							</div>
+						  </div>
+						  <div class="row">
+								<div class="input-field col s6">
+									<input placeholder="Digite o email de quem irá receber a mensagem aqui" id="emailReceptor" name="emailReceptor" type="email" class="validate" required="" aria-required="true">
+									<label for="emailReceptor">Email Receptor</label>
+								</div>
+								<div class="input-field col s6">
+									<input placeholder="Digite o assunto do email aqui" id="assunto" name="assunto" type="text" class="validate" required="" aria-required="true">
+									<label for="assunto">Assunto</label>
+								</div>
+							</div>
+						  <div class="row">
+								<div class="input-field col s12">
+									<input placeholder="Digite sua mensagem aqui" id="mensagem" name="mensagem" type="text" class="validate" required="" aria-required="true">
+									<label for="mensagem">Mensagem</label>
+								</div>
+							</div>
+						  <div class="row">
+							<div class="input-field col s12">
+							  <input id="emailEmissor" placeholder="Digite o seu endereço de email do Gmail aqui" name="emailEmissor" type="email" class="validate" required="" aria-required="true">
+							  <label for="emailEmissor">Email</label>
+							</div>
+						  </div>
+						  <div class="row">
+							<div class="input-field col s12">
+							  <input id="senhaEmissor" placeholder="Digite sua senha aqui (necessário para acessar o servidor SMTP da Google)" name="senhaEmissor" type="password" class="validate" required="" aria-required="true">
+							  <label for="senhaEmissor">Senha</label>
+							</div>
+						  </div>
+						</form>
+						<button class="btn waves-effect waves-light right" id="submit">Enviar
+						  <i class="material-icons right">send</i>
+						</button>
+					</div>
+				</div>
+			  </div>
+			</div>
+		</div>
+	</main>
+
+
+
+
+
+    <footer class="page-footer footer-fixed indigo darken-4 z-depth-5">
+      <div class="container">
+        <div class="row">
+          <div class="col m6 s12 flow-text">
+            <ul class="collapsible hoverable">
+              <li>
+                <div class="collapsible-header cyan darken-4 z-depth-5 sombra waves-effect waves-light"><a class="right white-text" href="#!"><i class="material-icons left">email</i>Informações de contato</a></div>
+                <div class="collapsible-body">
+                  <span>
+                    <ul>
+                      <li><a class="blue-text text-lighten-3 nowrap flow-text" href="https://www.linkedin.com/in/igor-duarte-de-lorena/"><i class="fa fa-linkedin-square"></i> LinkedIn</a></li>
+                      <li><a class="blue-text text-lighten-3 nowrap flow-text" href="https://www.github.com/igorgum/"><i class="fa fa-github"></i> Github</a></li>
+                      <li><a class="blue-text text-lighten-3 nowrap flow-text" href="https://mail.google.com/mail/?view=cm&fs=1&to=igorduartedelorena@gmail.com"><i class="material-icons left">email</i>Email</a></li>
+                    </ul>
+                  </span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col m6 s12 flow-text center">
+            <span class="centra">
+              © 2018 Igor Duarte de Lorena
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/javascript.js"></script>
+  </html>
