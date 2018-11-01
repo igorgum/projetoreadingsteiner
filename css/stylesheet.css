@@ -24,16 +24,3 @@ body {
 .formulario{
 	opacity: 0.95;
 }
-
-.footer-fixed{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-
-@media (max-width: 600px) {
-  footer{
-    display: none;
-	opacity: 0;
-  }
-}
