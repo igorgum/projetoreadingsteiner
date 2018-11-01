@@ -25,16 +25,15 @@ body {
 	opacity: 0.95;
 }
 
-@media (max-width: 600px) {
-  .footer-fixed{
-    display: none
-  }
-}
-
-@media (min-width: 601 px){
-  .footer-fixed{
+.footer-fixed{
     position: fixed;
     bottom: 0;
     width: 100%;
+  }
+
+@media (max-width: 600px) {
+  footer{
+    display: none;
+	opacity: 0;
   }
 }
