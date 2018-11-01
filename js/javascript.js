@@ -5,6 +5,7 @@ $(document).ready(function() {
   
     $("#submit").on('click', function(){
         var formData = '{"emailEmissor":"' + $('#emailEmissor').val() +'","senhaEmissor":"' + $('#senhaEmissor').val() +'","emailReceptor":"' + $('#emailReceptor').val() +'","mensagem":"' + $('#mensagem').val() +'","assunto":"' + $('#assunto').val() +'"}';
+	$(".card").hide();
         $.ajax({
             url: $("#serverPhp").val(), // url where to submit the request
             type : "POST", // type of action POST || GET
@@ -16,10 +17,12 @@ $(document).ready(function() {
 				$("footer").hide();
 				setTimeout(function(){
 					alert("D-email enviado");
+					$(".card").hide();
 				}, 1000);
             },
             error: function(xhr, resp, text) {
 				alert("Erro ao enviar D-email");
+		    		$(".card").show();
             }
         })
     });
