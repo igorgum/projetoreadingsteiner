@@ -27,11 +27,6 @@ Para mandar um email, utilize um dos dois modos:
 
 
 **_Via Apk (Android)_**
-
-~~Jui infelizmente está tendo problemas com a Organização e fará upload do apk em breve em [seu git](https://github.com/Aldebaram/)~~
-
-Jui conseguiu se desvencilhar da Organização:
-
 * Acesse [este repositório](https://github.com/Aldebaram/gadget_9) de meu amigo Supah Hacka Jui Cezar
 
 
