@@ -9,7 +9,7 @@ O Reading;Steiner é uma extensão do navegador Google Chrome que altera a data 
 Se a extensão estiver instalada, ao abrir um desses emails a data será alterada para 7 dias atrás.
 
 ## Requisitos
-É necessário ter instalado o navegador Google Chrome, possuir uma conta no g-mail e ficar ciente de que as datas somente são exibidas no idioma PT-BR.
+É necessário ter instalado o navegador Google Chrome, possuir uma conta no g-mail e ficar ciente de que as datas somente são exibidas no idioma PT-BR. Para a versão EN-US, [clique aqui.](https://github.com/igorgum/readingsteinerproject/)
 
 ## Instalação
 Para instalar a extensão, siga estes passos:
