@@ -14,6 +14,12 @@
 	  var restoDaMensagem = conteudoOriginal.substring(10);
 
     var dataNormal = conteudoOriginal.substring(0,10);
+    //mini bug do milenio
+	var Fix1 = dataNormal.substring(0,2);
+	var Fix2 = dataNormal.substring(3,5);
+	var Fix3 = dataNormal.substring(6,10);
+	dataNormal = Fix2 + "." + Fix1 + "." + Fix3;
+    //
     var dataLeapt = Date.parse(dataNormal).addDays(-7);
     var diaSemana = dataLeapt.getDay();
     var mes = dataLeapt.getMonth();
