@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Reading;Steiner",
+  "version": "1.0",
+  "description": "Leap through world lines to gain access to D-emails.",
+  "icons": {
+    "128": "icone.png"
+  },
+  "browser_action":{
+    "default_icon": "icone.png"
+  },
+  "permissions": [
+    "notifications"
+  ],
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [{
+    "matches": ["*://mail.google.com/*"],
+    "js": ["jquery-3.3.1.min.js", "date.js", "content.js"]
+  }],
+  "web_accessible_resources": [
+    "icone.png"
+  ]
+}
